@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: black;
+  font-size: 14px;
+  font-family: Poppins, sans-serif;
+}
+
+.container {
+  height: 50rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.formCase {
+  background-color: #1f2937;
+  box-shadow: rgba(7, 0, 0, 0.4) 0px 2px 4px,
+    rgba(12, 6, 6, 0.3) 0px 7px 13px -3px,
+    rgba(14, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 20px;
+  height: 55rem;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: Poppins, sans-serif;
+  text-shadow: 1px 1px 2px #fff;
+  font-size: 3rem;
+  color: #fff;
+  margin-top: 30px;
+  margin-inline: auto;
+}
+
+.formCantainer {
+  background-color: #fff;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border-radius: 10px;
+  height: 45rem;
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.labelCase {
+  font-size: 1.5rem;
+  color: #334155;
+  font-family: Poppins, sans-serif;
+  margin-top: 10px;
+}
+
+.inputBox {
+  font-family: Poppins, sans-serif;
+  font-size: 12.8px;
+  height: 3rem;
+  width: 496px;
+  border: 1px solid #000000;
+  padding: 8px 16px 8px 16px;
+}
+
+#btn {
+  width: 25%;
+  margin-top: 20px;
+  padding: 8px;
+  font-size: 1.3rem;
+  border: none;
+  background-color: #64748b;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  border-radius: 10px;
+}
